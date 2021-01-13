@@ -86,7 +86,26 @@ body {
         display: flex;
     }
 
-    #section-a, #section-b, #section-c .box-1, #section-c .box-2, #section-c .box-3 {
+    #section-b, #section-c .box-1, #section-c .box-2, #section-c .box-3 {
         padding: 40px;
+    }
+
+    #section-a, #section-b {
+        padding: 40px;
+        justify-content: center;
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    header {
+        margin: 0 10%;
+    }
+
+    main {
+        margin: 0 10%;
+        align-items: center;
+        justify-content: center;
     }
 }
