@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -10,10 +12,10 @@ html {
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.2rem;
-    
+    font-size: 1.2rem;  
 }
 
+/* content styles */
 
 #showcase {
     background-image: url(./image/gdynia.jpg);
@@ -80,6 +82,8 @@ body {
     background: #4b637a;
     color: #ffffff;
 }
+
+/* media queries */
 
 @media (min-width: 800px) {
     #section-c {
